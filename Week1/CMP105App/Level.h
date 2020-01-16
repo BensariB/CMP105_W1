@@ -19,6 +19,9 @@ private:
 	void endDraw();
 	sf::RenderWindow* window;
 
-	sf::RectangleShape rect;
+	sf::RectangleShape rect[3];
+	sf::RectangleShape myrect;
 	sf::CircleShape circle;
+	sf::Font font;
+	sf::Text text;
 };
